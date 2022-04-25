@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5788BF5D27EDBF28007DD813 /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5788BF5C27EDBF28007DD813 /* CustomTVC.swift */; };
+		578E795827EDB14300F8821E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E795727EDB14300F8821E /* AppDelegate.swift */; };
+		578E795A27EDB14300F8821E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E795927EDB14300F8821E /* SceneDelegate.swift */; };
+		578E795C27EDB14300F8821E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E795B27EDB14300F8821E /* ViewController.swift */; };
+		578E795F27EDB14300F8821E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578E795D27EDB14300F8821E /* Main.storyboard */; };
+		578E796127EDB14300F8821E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578E796027EDB14300F8821E /* Assets.xcassets */; };
+		578E796427EDB14300F8821E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578E796227EDB14300F8821E /* LaunchScreen.storyboard */; };
+		578E796F27EDB14300F8821E /* HeroGamePlanetveracityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E796E27EDB14300F8821E /* HeroGamePlanetveracityTests.swift */; };
+		578E797927EDB14300F8821E /* HeroGamePlanetveracityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E797827EDB14300F8821E /* HeroGamePlanetveracityUITests.swift */; };
+		578E797B27EDB14300F8821E /* HeroGamePlanetveracityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E797A27EDB14300F8821E /* HeroGamePlanetveracityUITestsLaunchTests.swift */; };
+		578E798827EDB38500F8821E /* HeroFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E798727EDB38500F8821E /* HeroFullViewController.swift */; };
+		578E798A27EDB43B00F8821E /* HeroDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E798927EDB43B00F8821E /* HeroDecoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578E796B27EDB14300F8821E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578E794C27EDB14300F8821E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578E795327EDB14300F8821E;
+			remoteInfo = HeroGamePlanetveracity;
+		};
+		578E797527EDB14300F8821E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 578E794C27EDB14300F8821E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 578E795327EDB14300F8821E;
+			remoteInfo = HeroGamePlanetveracity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5788BF5C27EDBF28007DD813 /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		578E795427EDB14300F8821E /* HeroGamePlanetveracity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroGamePlanetveracity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		578E795727EDB14300F8821E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		578E795927EDB14300F8821E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		578E795B27EDB14300F8821E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578E795E27EDB14300F8821E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		578E796027EDB14300F8821E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578E796327EDB14300F8821E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578E796527EDB14300F8821E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578E796A27EDB14300F8821E /* HeroGamePlanetveracityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroGamePlanetveracityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578E796E27EDB14300F8821E /* HeroGamePlanetveracityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGamePlanetveracityTests.swift; sourceTree = "<group>"; };
+		578E797427EDB14300F8821E /* HeroGamePlanetveracityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroGamePlanetveracityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		578E797827EDB14300F8821E /* HeroGamePlanetveracityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGamePlanetveracityUITests.swift; sourceTree = "<group>"; };
+		578E797A27EDB14300F8821E /* HeroGamePlanetveracityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroGamePlanetveracityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		578E798727EDB38500F8821E /* HeroFullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroFullViewController.swift; sourceTree = "<group>"; };
+		578E798927EDB43B00F8821E /* HeroDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDecoder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578E795127EDB14300F8821E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E796727EDB14300F8821E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E797127EDB14300F8821E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578E794B27EDB14300F8821E = {
+			isa = PBXGroup;
+			children = (
+				578E795627EDB14300F8821E /* HeroGamePlanetveracity */,
+				578E796D27EDB14300F8821E /* HeroGamePlanetveracityTests */,
+				578E797727EDB14300F8821E /* HeroGamePlanetveracityUITests */,
+				578E795527EDB14300F8821E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		578E795527EDB14300F8821E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578E795427EDB14300F8821E /* HeroGamePlanetveracity.app */,
+				578E796A27EDB14300F8821E /* HeroGamePlanetveracityTests.xctest */,
+				578E797427EDB14300F8821E /* HeroGamePlanetveracityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578E795627EDB14300F8821E /* HeroGamePlanetveracity */ = {
+			isa = PBXGroup;
+			children = (
+				578E795727EDB14300F8821E /* AppDelegate.swift */,
+				578E795927EDB14300F8821E /* SceneDelegate.swift */,
+				578E798927EDB43B00F8821E /* HeroDecoder.swift */,
+				578E795B27EDB14300F8821E /* ViewController.swift */,
+				5788BF5C27EDBF28007DD813 /* CustomTVC.swift */,
+				578E798727EDB38500F8821E /* HeroFullViewController.swift */,
+				578E795D27EDB14300F8821E /* Main.storyboard */,
+				578E796027EDB14300F8821E /* Assets.xcassets */,
+				578E796227EDB14300F8821E /* LaunchScreen.storyboard */,
+				578E796527EDB14300F8821E /* Info.plist */,
+			);
+			path = HeroGamePlanetveracity;
+			sourceTree = "<group>";
+		};
+		578E796D27EDB14300F8821E /* HeroGamePlanetveracityTests */ = {
+			isa = PBXGroup;
+			children = (
+				578E796E27EDB14300F8821E /* HeroGamePlanetveracityTests.swift */,
+			);
+			path = HeroGamePlanetveracityTests;
+			sourceTree = "<group>";
+		};
+		578E797727EDB14300F8821E /* HeroGamePlanetveracityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				578E797827EDB14300F8821E /* HeroGamePlanetveracityUITests.swift */,
+				578E797A27EDB14300F8821E /* HeroGamePlanetveracityUITestsLaunchTests.swift */,
+			);
+			path = HeroGamePlanetveracityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578E795327EDB14300F8821E /* HeroGamePlanetveracity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578E797E27EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracity" */;
+			buildPhases = (
+				578E795027EDB14300F8821E /* Sources */,
+				578E795127EDB14300F8821E /* Frameworks */,
+				578E795227EDB14300F8821E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroGamePlanetveracity;
+			productName = HeroGamePlanetveracity;
+			productReference = 578E795427EDB14300F8821E /* HeroGamePlanetveracity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		578E796927EDB14300F8821E /* HeroGamePlanetveracityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578E798127EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracityTests" */;
+			buildPhases = (
+				578E796627EDB14300F8821E /* Sources */,
+				578E796727EDB14300F8821E /* Frameworks */,
+				578E796827EDB14300F8821E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578E796C27EDB14300F8821E /* PBXTargetDependency */,
+			);
+			name = HeroGamePlanetveracityTests;
+			productName = HeroGamePlanetveracityTests;
+			productReference = 578E796A27EDB14300F8821E /* HeroGamePlanetveracityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		578E797327EDB14300F8821E /* HeroGamePlanetveracityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578E798427EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracityUITests" */;
+			buildPhases = (
+				578E797027EDB14300F8821E /* Sources */,
+				578E797127EDB14300F8821E /* Frameworks */,
+				578E797227EDB14300F8821E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578E797627EDB14300F8821E /* PBXTargetDependency */,
+			);
+			name = HeroGamePlanetveracityUITests;
+			productName = HeroGamePlanetveracityUITests;
+			productReference = 578E797427EDB14300F8821E /* HeroGamePlanetveracityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578E794C27EDB14300F8821E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					578E795327EDB14300F8821E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					578E796927EDB14300F8821E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 578E795327EDB14300F8821E;
+					};
+					578E797327EDB14300F8821E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 578E795327EDB14300F8821E;
+					};
+				};
+			};
+			buildConfigurationList = 578E794F27EDB14300F8821E /* Build configuration list for PBXProject "HeroGamePlanetveracity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578E794B27EDB14300F8821E;
+			productRefGroup = 578E795527EDB14300F8821E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578E795327EDB14300F8821E /* HeroGamePlanetveracity */,
+				578E796927EDB14300F8821E /* HeroGamePlanetveracityTests */,
+				578E797327EDB14300F8821E /* HeroGamePlanetveracityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578E795227EDB14300F8821E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E796427EDB14300F8821E /* LaunchScreen.storyboard in Resources */,
+				578E796127EDB14300F8821E /* Assets.xcassets in Resources */,
+				578E795F27EDB14300F8821E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E796827EDB14300F8821E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E797227EDB14300F8821E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578E795027EDB14300F8821E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E795C27EDB14300F8821E /* ViewController.swift in Sources */,
+				578E795827EDB14300F8821E /* AppDelegate.swift in Sources */,
+				5788BF5D27EDBF28007DD813 /* CustomTVC.swift in Sources */,
+				578E798A27EDB43B00F8821E /* HeroDecoder.swift in Sources */,
+				578E795A27EDB14300F8821E /* SceneDelegate.swift in Sources */,
+				578E798827EDB38500F8821E /* HeroFullViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E796627EDB14300F8821E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E796F27EDB14300F8821E /* HeroGamePlanetveracityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578E797027EDB14300F8821E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578E797927EDB14300F8821E /* HeroGamePlanetveracityUITests.swift in Sources */,
+				578E797B27EDB14300F8821E /* HeroGamePlanetveracityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578E796C27EDB14300F8821E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578E795327EDB14300F8821E /* HeroGamePlanetveracity */;
+			targetProxy = 578E796B27EDB14300F8821E /* PBXContainerItemProxy */;
+		};
+		578E797627EDB14300F8821E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 578E795327EDB14300F8821E /* HeroGamePlanetveracity */;
+			targetProxy = 578E797527EDB14300F8821E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		578E795D27EDB14300F8821E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578E795E27EDB14300F8821E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		578E796227EDB14300F8821E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578E796327EDB14300F8821E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578E797C27EDB14300F8821E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		578E797D27EDB14300F8821E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578E797F27EDB14300F8821E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroGamePlanetveracity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578E798027EDB14300F8821E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeroGamePlanetveracity/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		578E798227EDB14300F8821E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroGamePlanetveracity.app/HeroGamePlanetveracity";
+			};
+			name = Debug;
+		};
+		578E798327EDB14300F8821E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroGamePlanetveracity.app/HeroGamePlanetveracity";
+			};
+			name = Release;
+		};
+		578E798527EDB14300F8821E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroGamePlanetveracity;
+			};
+			name = Debug;
+		};
+		578E798627EDB14300F8821E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pravin.pk.HeroGamePlanetveracityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroGamePlanetveracity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578E794F27EDB14300F8821E /* Build configuration list for PBXProject "HeroGamePlanetveracity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E797C27EDB14300F8821E /* Debug */,
+				578E797D27EDB14300F8821E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578E797E27EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E797F27EDB14300F8821E /* Debug */,
+				578E798027EDB14300F8821E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578E798127EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E798227EDB14300F8821E /* Debug */,
+				578E798327EDB14300F8821E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578E798427EDB14300F8821E /* Build configuration list for PBXNativeTarget "HeroGamePlanetveracityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578E798527EDB14300F8821E /* Debug */,
+				578E798627EDB14300F8821E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 578E794C27EDB14300F8821E /* Project object */;
+}
